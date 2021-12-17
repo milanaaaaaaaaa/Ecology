@@ -1,0 +1,52 @@
+@media (max-width: 575px) {
+   .menu{
+       height: 80px;
+       width: 100%;
+       flex-direction: row;
+       padding: 10px;
+       z-index: 999;
+   }
+   .nev{
+       flex-direction: row;
+       height: 100%;
+       flex-grow: 3;
+       align-items: center;
+   }
+   .nev img{
+       width: 32%;
+   }
+   .logo{
+       width:100%;
+   }
+   .menu a{
+       width: fit-content;
+       flex-grow: 1;
+   }
+   .main{
+       margin-top: 80px;
+       margin-left: 0;
+   }
+   .fact ul{
+       flex-direction: column;
+       justify-content: space-around; 
+       font-size: 12px;  
+   }
+   .galeryitem{
+       width: 30%;
+       margin: 5px;
+   }
+   .galeryitem img{
+       height: 250px;
+   }
+   .galerycontent{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .ecologycontent{
+       flex-direction: column;
+   }
+   .ecologyitem{
+       width: 100%;
+       font-size: 22px;
+   }
+}
