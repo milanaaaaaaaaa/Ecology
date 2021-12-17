@@ -81,7 +81,7 @@ h2{
     margin: 0%; 
 }
 .factleft{
-    background: url(images/intro2.jpg) center/cover no-repeat;
+    background: url(intro2.jpg) center/cover no-repeat;
     height: 300px;
     width: 50%;
     border-radius: 0 15px 15px 0;
@@ -166,7 +166,7 @@ li{
     display: flex;
 }
 .recycleleft{
-    background: url(images/land0.jpg) center/cover;
+    background: url(land0.jpg) center/cover;
     background-size: cover;
     display: flex;
     align-items: center;
